@@ -1,14 +1,10 @@
-//
-//  main.c
-//  CountToTen
-//
-//  Created by hacking on 11/29/22.
-//
-
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    int i;
+    for (i=1; i<11; i++){
+        printf("%d ", i);
+        printf("\n");
+    }
     return 0;
 }
